@@ -1,0 +1,395 @@
+
+  _                   .-=-.           .-=-.          .-==-.       
+ { }      __        .' O o '.       .' O o '.       /  -<' )--<   
+ { }    .' O'.     / o .-. O \     / o .-. O \     /  .---`       
+ { }   / .-. o\   /O  /   \  o\   /O  /   \  o\   /O /            
+  \ `-` /   \ O`-'o  /     \  O`-'o  /     \  O`-`o /             
+   `-.-`     '.____.'       `._____.'       `.____.'              
+
+Serpent 2 beta
+
+A Continuous-energy Monte Carlo Reactor Physics Burnup Calculation Code
+
+ - Version 2.1.17 (February 24, 2014) -- Contact: Jaakko.Leppanen@vtt.fi
+
+ - MPI Parallel calculation mode available
+
+ - OpenMP Parallel calculation mode available
+
+ - Geometry and mesh plotting available
+
+ - Default data path not set
+
+Begin calculation on Fri Jun 12 17:46:56 2015
+
+Reading input file "serp_full_core"...
+Reading input file "Blanket"...
+Reading input file "OR"...
+Reading input file "CRCC"...
+Reading input file "Fuel"...
+Reading input file "CR"...
+Reading input file "ORCC"...
+Reading input file "coreMaterials"...
+
+Checking duplicate input definitions...
+OK.
+
+Reading pebble bed type geometry:
+
+Reading data from file "pb_pos40"...
+Reading data from file "pb_pos_40"...
+
+Creating geometry...
+OK.
+
+Counting geometry zones...
+
+The geometry consists of 8 levels:
+
+Level 0 size: max 2 zones
+Level 1 size: max 32 zones
+Level 2 size: max 1 zones
+Level 3 size: max 1 zones
+Level 4 size: max 15 zones
+Level 5 size: max 3 zones
+Level 6 size: max 1 zones
+Level 7 size: max 6 zones
+
+Processing cells...
+OK.
+
+Linking materials to geometry...
+OK.
+
+Counting cells...
+OK.
+
+Processing data for group constant generation:
+
+ - 70 energy groups in micro-group structure
+ - 2 energy groups in macro-group structure
+ - B1 fundamental mode calculation is not run
+ - Group constants generated in 1 universes
+ - Discontinuity factors are not calculated
+ - Pin-power distributions are not calculated
+ - Poison cross sections are not calculated
+
+Plotting geometry:
+
+   0% complete
+  33% complete
+  67% complete
+ 100% complete
+
+Reading ACE directory files...
+OK.
+
+Adding nuclides in material Flibe924...
+
+Nuclide   3006.09c -- lithium 6 at 923K (Li-6)
+Nuclide   3007.09c -- lithium 7 at 923K (Li-7)
+Nuclide   4009.09c -- beryllium 9 at 923K (Be-9)
+Nuclide   9019.09c -- fluorine 19 at 923K (F-19)
+
+Adding nuclides in material Graphite924...
+
+Nuclide   6000.09c -- natural carbon at 923K (C-nat)
+
+Adding nuclides in material GraphiteCoolantMix924...
+
+Adding nuclides in material CentralGraphite...
+
+Nuclide   6000.09c -- natural carbon at 1073K (C-nat)
+
+Adding nuclides in material Shell...
+
+Adding nuclides in material fuel0...
+
+Nuclide  92235.09c -- uranium 235 at 1073K (U-235)
+Nuclide  92238.09c -- uranium 238 at 1073K (U-238)
+Nuclide  12000.09c -- natural magnesium at 1073K (Mg-nat)
+Nuclide   8016.09c -- oxygen 16 at 1073K (O-16)
+
+Adding nuclides in material Buffer...
+
+Adding nuclides in material iPyC...
+
+Adding nuclides in material SiC...
+
+Nuclide  14000.09c -- natural silicon at 1073K (Si-nat)
+
+Adding nuclides in material oPyC...
+
+Adding nuclides in material Matrix...
+
+Nuclide   5010.09c -- boron 10 at 1073K (B-10)
+Nuclide   5011.09c -- boron 11 at 1073K (B-11)
+
+Adding nuclides in material fuel1...
+
+Adding nuclides in material fuel2...
+
+Adding nuclides in material fuel3...
+
+Adding nuclides in material fuel4...
+
+Adding nuclides in material fuel5...
+
+Adding nuclides in material fuel6...
+
+Adding nuclides in material fuel7...
+
+Adding nuclides in material fuel8...
+
+Adding nuclides in material fuel9...
+
+Adding nuclides in material fuel10...
+
+Adding nuclides in material fuel11...
+
+Adding nuclides in material fuel12...
+
+Adding nuclides in material fuel13...
+
+Running Doppler-broadening preprocessor:
+
+Adjusting nuclide   3006.09c temperature from 900K to 923K...
+Adjusting nuclide   3007.09c temperature from 900K to 923K...
+Adjusting nuclide   4009.09c temperature from 900K to 923K...
+Adjusting nuclide   9019.09c temperature from 900K to 923K...
+Adjusting nuclide   6000.09c temperature from 900K to 923K...
+Adjusting nuclide   6000.09c temperature from 900K to 1073K...
+Adjusting nuclide  92235.09c temperature from 900K to 1073K...
+Adjusting nuclide  92238.09c temperature from 900K to 1073K...
+Adjusting nuclide  12000.09c temperature from 900K to 1073K...
+Adjusting nuclide   8016.09c temperature from 900K to 1073K...
+Adjusting nuclide  14000.09c temperature from 900K to 1073K...
+Adjusting nuclide   5010.09c temperature from 900K to 1073K...
+Adjusting nuclide   5011.09c temperature from 900K to 1073K...
+
+Adding thermal scattering data...
+
+Nuclide   gre7.20t -- natural carbon at 1000K (C-nat)
+Nuclide   gre7.22t -- natural carbon at 1200K (C-nat)
+
+Checking data and printing output...
+OK.
+
+Generating unionize energy grids...
+
+Adding points:
+
+  3006.09c -- Points added in neutron grid: 520
+  3007.09c -- Points added in neutron grid: 86
+  4009.09c -- Points added in neutron grid: 101
+  5010.09c -- Points added in neutron grid: 219
+  5011.09c -- Points added in neutron grid: 2610
+  6000.09c -- Points added in neutron grid: 582
+  6000.09c -- Points added in neutron grid: 0
+  6000.09s -- Points added in neutron grid: 1205
+  6000.09s -- Points added in neutron grid: 0
+  6000.09s -- Points added in neutron grid: 2
+  6000.09s -- Points added in neutron grid: 0
+  6000.09s -- Points added in neutron grid: 0
+  6000.09s -- Points added in neutron grid: 0
+  6000.09s -- Points added in neutron grid: 0
+  6000.09s -- Points added in neutron grid: 0
+  8016.09c -- Points added in neutron grid: 1526
+  9019.09c -- Points added in neutron grid: 1049
+ 12000.09c -- Points added in neutron grid: 1816
+ 14000.09c -- Points added in neutron grid: 2589
+ 92235.09c -- Points added in neutron grid: 25161
+ 92238.09c -- Points added in neutron grid: 54189
+
+Generating unionized energy grid:
+
+ - Unionization performed without grid thinning
+   between 1.00E-11 and 20.0 MeV.
+
+ - Final neutron grid size: 91467 points.
+
+ - 4.68 Mb of memory allocated for grid data
+
+OK.
+
+Processing cross sections and ENDF reaction laws...
+
+Nuclide   3006.09c -- lithium 6 at 923K (Li-6)
+Nuclide   3007.09c -- lithium 7 at 923K (Li-7)
+Nuclide   4009.09c -- beryllium 9 at 923K (Be-9)
+Nuclide   5010.09c -- boron 10 at 1073K (B-10)
+Nuclide   5011.09c -- boron 11 at 1073K (B-11)
+***** Fri Jun 12 17:46:59 2015 (seed = 1434156416)
+Warning message from function ProcessMuDistributions:
+
+1 coincident energy points in mubar data (6000.09c mt 2)
+
+Nuclide   6000.09c -- natural carbon at 923K (C-nat)
+***** Fri Jun 12 17:46:59 2015 (seed = 1434156416)
+Warning message from function ProcessMuDistributions:
+
+1 coincident energy points in mubar data (6000.09c mt 2)
+
+Nuclide   6000.09c -- natural carbon at 1073K (C-nat)
+***** Fri Jun 12 17:46:59 2015 (seed = 1434156416)
+Warning message from function ProcessMuDistributions:
+
+1 coincident energy points in mubar data (6000.09c mt 2)
+
+Nuclide   6000.09s -- natural carbon at 923K (C-nat)
+***** Fri Jun 12 17:46:59 2015 (seed = 1434156416)
+Warning message from function ProcessMuDistributions:
+
+1 coincident energy points in mubar data (6000.09c mt 2)
+
+Nuclide   6000.09s -- natural carbon at 923K (C-nat)
+***** Fri Jun 12 17:46:59 2015 (seed = 1434156416)
+Warning message from function ProcessMuDistributions:
+
+1 coincident energy points in mubar data (6000.09c mt 2)
+
+Nuclide   6000.09s -- natural carbon at 1073K (C-nat)
+***** Fri Jun 12 17:46:59 2015 (seed = 1434156416)
+Warning message from function ProcessMuDistributions:
+
+1 coincident energy points in mubar data (6000.09c mt 2)
+
+Nuclide   6000.09s -- natural carbon at 1073K (C-nat)
+***** Fri Jun 12 17:46:59 2015 (seed = 1434156416)
+Warning message from function ProcessMuDistributions:
+
+1 coincident energy points in mubar data (6000.09c mt 2)
+
+Nuclide   6000.09s -- natural carbon at 1073K (C-nat)
+***** Fri Jun 12 17:46:59 2015 (seed = 1434156416)
+Warning message from function ProcessMuDistributions:
+
+1 coincident energy points in mubar data (6000.09c mt 2)
+
+Nuclide   6000.09s -- natural carbon at 1073K (C-nat)
+***** Fri Jun 12 17:46:59 2015 (seed = 1434156416)
+Warning message from function ProcessMuDistributions:
+
+1 coincident energy points in mubar data (6000.09c mt 2)
+
+Nuclide   6000.09s -- natural carbon at 1073K (C-nat)
+***** Fri Jun 12 17:46:59 2015 (seed = 1434156416)
+Warning message from function ProcessMuDistributions:
+
+1 coincident energy points in mubar data (6000.09c mt 2)
+
+Nuclide   6000.09s -- natural carbon at 1073K (C-nat)
+***** Fri Jun 12 17:46:59 2015 (seed = 1434156416)
+Warning message from function ProcessMuDistributions:
+
+1 coincident energy points in mubar data (8016.09c mt 2)
+
+Nuclide   8016.09c -- oxygen 16 at 1073K (O-16)
+Nuclide   9019.09c -- fluorine 19 at 923K (F-19)
+Nuclide  12000.09c -- natural magnesium at 1073K (Mg-nat)
+Nuclide  14000.09c -- natural silicon at 1073K (Si-nat)
+Nuclide  92235.09c -- uranium 235 at 1073K (U-235)
+Nuclide  92238.09c -- uranium 238 at 1073K (U-238)
+
+SUMMARY -- 21 nuclides included in calculation:
+
+ - 21 transport nuclides
+ - Neutron energy cut-offs at 1.00E-11 and 20.0 MeV
+ - 588 transport reactions
+ - 105 special reactions
+ - 100.46 Mb of memory allocated for data
+
+Normalizing compositions and processing mixtures...
+OK.
+
+Allocating memory for macroscopic cross section data...
+OK.
+
+Allocating memory for particle structures...
+OK.
+
+Calculating maximum densities...
+OK.
+
+Performing density cut-off...
+OK.
+
+Sorting material-wise reaction lists:
+
+   0% complete
+   8% complete
+  17% complete
+  25% complete
+  50% complete
+ 100% complete
+
+Calculating macroscopic cross sections:
+
+   0% complete
+   8% complete
+  17% complete
+  25% complete
+  33% complete
+  42% complete
+  50% complete
+  58% complete
+  67% complete
+  75% complete
+  83% complete
+  92% complete
+ 100% complete
+
+Calculating DT neutron majorant cross section:
+
+   0% complete
+  83% complete
+ 100% complete
+
+Clearing results and statistics...
+OK.
+
+Sampling initial source...
+OK.
+
+Inactive cycle   1 / 500: k-eff = 1.00000
+Inactive cycle   2 / 500: k-eff = 1.20223
+Inactive cycle   3 / 500: k-eff = 1.22492
+Inactive cycle   4 / 500: k-eff = 1.23400
+Inactive cycle   5 / 500: k-eff = 1.23868
+Inactive cycle   6 / 500: k-eff = 1.24397
+Inactive cycle   7 / 500: k-eff = 1.25010
+Inactive cycle   8 / 500: k-eff = 1.24730
+Inactive cycle   9 / 500: k-eff = 1.25254
+Inactive cycle  10 / 500: k-eff = 1.25204
+Inactive cycle  11 / 500: k-eff = 1.24983
+Inactive cycle  12 / 500: k-eff = 1.24731
+Inactive cycle  13 / 500: k-eff = 1.25028
+Inactive cycle  14 / 500: k-eff = 1.24517
+Inactive cycle  15 / 500: k-eff = 1.24700
+Inactive cycle  16 / 500: k-eff = 1.25196
+Inactive cycle  17 / 500: k-eff = 1.25388
+Inactive cycle  18 / 500: k-eff = 1.24874
+Inactive cycle  19 / 500: k-eff = 1.24941
+Inactive cycle  20 / 500: k-eff = 1.25194
+Inactive cycle  21 / 500: k-eff = 1.25319
+Inactive cycle  22 / 500: k-eff = 1.25426
+Inactive cycle  23 / 500: k-eff = 1.24424
+Inactive cycle  24 / 500: k-eff = 1.24942
+Inactive cycle  25 / 500: k-eff = 1.25010
+Inactive cycle  26 / 500: k-eff = 1.25226
+Inactive cycle  27 / 500: k-eff = 1.24708
+Inactive cycle  28 / 500: k-eff = 1.24981
+Inactive cycle  29 / 500: k-eff = 1.25007
+Inactive cycle  30 / 500: k-eff = 1.25080
+Inactive cycle  31 / 500: k-eff = 1.25136
+Inactive cycle  32 / 500: k-eff = 1.25444
+Inactive cycle  33 / 500: k-eff = 1.25125
+Inactive cycle  34 / 500: k-eff = 1.25180
+Inactive cycle  35 / 500: k-eff = 1.25284
+Inactive cycle  36 / 500: k-eff = 1.25017
+Inactive cycle  37 / 500: k-eff = 1.24851
+Inactive cycle  38 / 500: k-eff = 1.25250
+Inactive cycle  39 / 500: k-eff = 1.24755
+Inactive cycle  40 / 500: k-eff = 1.24975
+Inactive cycle  41 / 500: k-eff = 1.24642
+Inactive cycle  42 / 500: k-eff = 1.25360
