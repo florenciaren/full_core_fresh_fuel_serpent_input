@@ -1750,7 +1750,7 @@ Material "Flibe924":
  - Mass 0.0000E+00 g
  - 4 nuclides in composition
  - No nuclides associated with S(a,b) data
- - 2.81 Mb of memory allocated for data
+ - 2.80 Mb of memory allocated for data
 
 Isotopic composition (non-zero densities):
 
@@ -1772,7 +1772,7 @@ Material "Graphite924":
  - Mass 1.5975E+02 g
  - 1 nuclides in composition
  - 1 nuclides associated with S(a,b) data
- - 2.11 Mb of memory allocated for data
+ - 2.10 Mb of memory allocated for data
 
 Isotopic composition (non-zero densities):
 
@@ -1791,7 +1791,7 @@ Material "GraphiteCoolantMix924":
  - Mass 0.0000E+00 g
  - 5 nuclides in composition
  - 1 nuclides associated with S(a,b) data
- - 2.81 Mb of memory allocated for data
+ - 2.80 Mb of memory allocated for data
 
 Isotopic composition (non-zero densities):
 
@@ -1814,7 +1814,7 @@ Material "CentralGraphite":
  - Mass 1.3951E+03 g
  - 1 nuclides in composition
  - 1 nuclides associated with S(a,b) data
- - 2.11 Mb of memory allocated for data
+ - 2.10 Mb of memory allocated for data
 
 Isotopic composition (non-zero densities):
 
@@ -1833,7 +1833,7 @@ Material "Shell":
  - Mass 0.0000E+00 g
  - 1 nuclides in composition
  - 1 nuclides associated with S(a,b) data
- - 2.11 Mb of memory allocated for data
+ - 2.10 Mb of memory allocated for data
 
 Isotopic composition (non-zero densities):
 
@@ -1852,7 +1852,7 @@ Material "fuel0":
  - Mass 2.3457E-03 g
  - 4 nuclides in composition
  - No nuclides associated with S(a,b) data
- - 4.21 Mb of memory allocated for data
+ - 4.20 Mb of memory allocated for data
 
 Isotopic composition (non-zero densities):
 
@@ -1874,7 +1874,7 @@ Material "Buffer":
  - Mass 8.1895E-03 g
  - 1 nuclides in composition
  - 1 nuclides associated with S(a,b) data
- - 2.11 Mb of memory allocated for data
+ - 2.10 Mb of memory allocated for data
 
 Isotopic composition (non-zero densities):
 
@@ -1893,7 +1893,7 @@ Material "iPyC":
  - Mass 8.2639E-03 g
  - 1 nuclides in composition
  - 1 nuclides associated with S(a,b) data
- - 2.11 Mb of memory allocated for data
+ - 2.10 Mb of memory allocated for data
 
 Isotopic composition (non-zero densities):
 
@@ -1912,7 +1912,7 @@ Material "SiC":
  - Mass 1.7045E-02 g
  - 2 nuclides in composition
  - No nuclides associated with S(a,b) data
- - 2.81 Mb of memory allocated for data
+ - 2.80 Mb of memory allocated for data
 
 Isotopic composition (non-zero densities):
 
@@ -1932,7 +1932,7 @@ Material "oPyC":
  - Mass 1.2305E-02 g
  - 1 nuclides in composition
  - 1 nuclides associated with S(a,b) data
- - 2.11 Mb of memory allocated for data
+ - 2.10 Mb of memory allocated for data
 
 Isotopic composition (non-zero densities):
 
@@ -1951,7 +1951,7 @@ Material "Matrix":
  - Mass 1.7150E+39 g
  - 3 nuclides in composition
  - 1 nuclides associated with S(a,b) data
- - 2.81 Mb of memory allocated for data
+ - 2.80 Mb of memory allocated for data
 
 Isotopic composition (non-zero densities):
 
@@ -1972,7 +1972,7 @@ Material "fuel1":
  - Mass 2.3457E-03 g
  - 4 nuclides in composition
  - No nuclides associated with S(a,b) data
- - 4.21 Mb of memory allocated for data
+ - 4.20 Mb of memory allocated for data
 
 Isotopic composition (non-zero densities):
 
@@ -1994,7 +1994,7 @@ Material "fuel2":
  - Mass 2.3457E-03 g
  - 4 nuclides in composition
  - No nuclides associated with S(a,b) data
- - 4.21 Mb of memory allocated for data
+ - 4.20 Mb of memory allocated for data
 
 Isotopic composition (non-zero densities):
 
@@ -2016,7 +2016,7 @@ Material "fuel3":
  - Mass 2.3457E-03 g
  - 4 nuclides in composition
  - No nuclides associated with S(a,b) data
- - 4.21 Mb of memory allocated for data
+ - 4.20 Mb of memory allocated for data
 
 Isotopic composition (non-zero densities):
 
@@ -2038,7 +2038,7 @@ Material "fuel4":
  - Mass 2.3457E-03 g
  - 4 nuclides in composition
  - No nuclides associated with S(a,b) data
- - 4.21 Mb of memory allocated for data
+ - 4.20 Mb of memory allocated for data
 
 Isotopic composition (non-zero densities):
 
@@ -2060,7 +2060,7 @@ Material "fuel5":
  - Mass 2.3457E-03 g
  - 4 nuclides in composition
  - No nuclides associated with S(a,b) data
- - 4.21 Mb of memory allocated for data
+ - 4.20 Mb of memory allocated for data
 
 Isotopic composition (non-zero densities):
 
@@ -2082,7 +2082,7 @@ Material "fuel6":
  - Mass 2.3457E-03 g
  - 4 nuclides in composition
  - No nuclides associated with S(a,b) data
- - 4.21 Mb of memory allocated for data
+ - 4.20 Mb of memory allocated for data
 
 Isotopic composition (non-zero densities):
 
@@ -2104,7 +2104,7 @@ Material "fuel7":
  - Mass 2.3457E-03 g
  - 4 nuclides in composition
  - No nuclides associated with S(a,b) data
- - 4.21 Mb of memory allocated for data
+ - 4.20 Mb of memory allocated for data
 
 Isotopic composition (non-zero densities):
 
@@ -2126,7 +2126,7 @@ Material "fuel8":
  - Mass 2.3457E-03 g
  - 4 nuclides in composition
  - No nuclides associated with S(a,b) data
- - 4.21 Mb of memory allocated for data
+ - 4.20 Mb of memory allocated for data
 
 Isotopic composition (non-zero densities):
 
@@ -2148,7 +2148,7 @@ Material "fuel9":
  - Mass 2.3457E-03 g
  - 4 nuclides in composition
  - No nuclides associated with S(a,b) data
- - 4.21 Mb of memory allocated for data
+ - 4.20 Mb of memory allocated for data
 
 Isotopic composition (non-zero densities):
 
@@ -2170,7 +2170,7 @@ Material "fuel10":
  - Mass 2.3457E-03 g
  - 4 nuclides in composition
  - No nuclides associated with S(a,b) data
- - 4.21 Mb of memory allocated for data
+ - 4.20 Mb of memory allocated for data
 
 Isotopic composition (non-zero densities):
 
@@ -2192,7 +2192,7 @@ Material "fuel11":
  - Mass 2.3457E-03 g
  - 4 nuclides in composition
  - No nuclides associated with S(a,b) data
- - 4.21 Mb of memory allocated for data
+ - 4.20 Mb of memory allocated for data
 
 Isotopic composition (non-zero densities):
 
@@ -2214,7 +2214,7 @@ Material "fuel12":
  - Mass 2.3457E-03 g
  - 4 nuclides in composition
  - No nuclides associated with S(a,b) data
- - 4.21 Mb of memory allocated for data
+ - 4.20 Mb of memory allocated for data
 
 Isotopic composition (non-zero densities):
 
@@ -2236,7 +2236,7 @@ Material "fuel13":
  - Mass 2.3457E-03 g
  - 4 nuclides in composition
  - No nuclides associated with S(a,b) data
- - 4.21 Mb of memory allocated for data
+ - 4.20 Mb of memory allocated for data
 
 Isotopic composition (non-zero densities):
 
